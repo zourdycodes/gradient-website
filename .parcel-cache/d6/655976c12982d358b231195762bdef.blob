@@ -433,7 +433,7 @@
 .fa-layer-group,
 .fa-users {
   font-size: 10rem;
-  margin: 0 auto;
+  text-align: center;
 }
 
 #card-2 {
@@ -745,5 +745,3 @@
     width: 100%;
   }
 }
-
-/*# sourceMappingURL=index.c71aa661.css.map */

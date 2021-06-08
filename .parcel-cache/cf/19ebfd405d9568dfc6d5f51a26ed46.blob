@@ -1,25 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap"
-      rel="stylesheet"
-    />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
-      integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="/index.HASH_REF_84585eaa4f82611d96ae1589c71aa661.css">
 
-    <link rel="stylesheet" href="./styles/main.css" />
-
-    <script defer src="./js/App.js"></script>
+    <script defer="" src="/index.HASH_REF_85717ce8c66164c1f967695cbc817d69.js"></script>
     <title>Gradient Website</title>
   </head>
   <body>
@@ -41,9 +32,7 @@
             <a href="#about " class="navbar__links" id="about-page">About</a>
           </li>
           <li class="navbar__item">
-            <a href="#services" class="navbar__links" id="services-page"
-              >Services</a
-            >
+            <a href="#services" class="navbar__links" id="services-page">Services</a>
           </li>
           <li class="navbar__btn">
             <a href="#sign-up" class="button" id="signup">Sign Up</a>
@@ -140,21 +129,11 @@
           </div>
           <p class="website__rights">© COLOR 2020. All rights reserved</p>
           <div class="social__icons">
-            <a href="/" class="social__icon--link" target="_blank"
-              ><i class="fab fa-facebook"></i
-            ></a>
-            <a href="/" class="social__icon--link"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a href="/" class="social__icon--link"
-              ><i class="fab fa-youtube"></i
-            ></a>
-            <a href="/" class="social__icon--link"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            <a href="/" class="social__icon--link"
-              ><i class="fab fa-twitter"></i
-            ></a>
+            <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="/" class="social__icon--link"><i class="fab fa-instagram"></i></a>
+            <a href="/" class="social__icon--link"><i class="fab fa-youtube"></i></a>
+            <a href="/" class="social__icon--link"><i class="fab fa-linkedin"></i></a>
+            <a href="/" class="social__icon--link"><i class="fab fa-twitter"></i></a>
           </div>
         </div>
       </section>
