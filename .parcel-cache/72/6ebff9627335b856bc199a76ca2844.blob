@@ -1,22 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap"
-      rel="stylesheet"
-    />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="4a8a00904bae35c1104942c334d95ef2">
+    <link href="dbac26525e77294bd9fe9b51dd41a4c2" rel="stylesheet">
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
-    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="7f96f5a568c396620c6e89e6e5790b69">
+    <link rel="stylesheet" href="72bb0d43a73e48008eec973cafeea23e">
 
-    <script defer src="./js/App.js"></script>
+    <script defer="" src="bfefbfd39c377795146b56b50f70ac73"></script>
     <title>Gradient Website</title>
   </head>
   <body>
@@ -38,9 +32,7 @@
             <a href="#about " class="navbar__links" id="about-page">About</a>
           </li>
           <li class="navbar__item">
-            <a href="#services" class="navbar__links" id="services-page"
-              >Services</a
-            >
+            <a href="#services" class="navbar__links" id="services-page">Services</a>
           </li>
           <li class="navbar__btn">
             <a href="#sign-up" class="button" id="signup">Sign Up</a>
