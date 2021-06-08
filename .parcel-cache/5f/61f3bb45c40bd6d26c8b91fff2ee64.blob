@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.HASH_REF_84585eaa4f82611d96ae1589c71aa661.css">
+
+    <script defer="" src="/index.HASH_REF_85717ce8c66164c1f967695cbc817d69.js"></script>
+    <title>Gradient Website</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">GRADIENT</a>
+      </div>
+    </nav>
+    <!-- HEADER - BANNER  -->
+  </body>
+</html>
