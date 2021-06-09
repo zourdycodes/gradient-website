@@ -447,7 +447,7 @@ id) /*: string*/
 const menu = document.querySelector("#mobile-menu");
 const menuLinks = document.querySelector(".navbar__menu");
 const btnScrollTo = document.querySelector("#btn__scroll-to");
-const aboutSection = document.querySelector("#section--1");
+const aboutSection = document.querySelector("#services");
 const navLogo = document.querySelector("#navbar__logo");
 
 //* Display Mobile Menu
@@ -463,51 +463,13 @@ const mobileMenu = () => {
 menu.addEventListener("click", mobileMenu);
 
 //* Show active menu when scroll
-// Show active menu when scrolling
-const highlightMenu = () => {
+const hightlightMenu = () => {
   const elem = document.querySelector(".highlight");
   const homeMenu = document.querySelector("#home-page");
   const aboutMenu = document.querySelector("#about-page");
-  const servicesMenu = document.querySelector("#services-page");
-  let scrollPos = window.scrollY;
-  // console.log(scrollPos);
-
-  // adds 'highlight' class to my menu items
-  if (window.innerWidth > 960 && scrollPos < 600) {
-    homeMenu.classList.add("highlight");
-    aboutMenu.classList.remove("highlight");
-    return;
-  } else if (window.innerWidth > 960 && scrollPos < 1400) {
-    aboutMenu.classList.add("highlight");
-    homeMenu.classList.remove("highlight");
-    servicesMenu.classList.remove("highlight");
-    return;
-  } else if (window.innerWidth > 960 && scrollPos < 2345) {
-    servicesMenu.classList.add("highlight");
-    aboutMenu.classList.remove("highlight");
-    return;
-  }
-
-  if ((elem && window.innerWIdth < 960 && scrollPos < 600) || elem) {
-    elem.classList.remove("highlight");
-  }
+  const serviceMenu = document.querySelector("#services-page");
 };
-
-window.addEventListener("scroll", highlightMenu);
-window.addEventListener("click", highlightMenu);
-
-//  Close mobile Menu when clicking on a menu item
-const hideMobileMenu = () => {
-  const menuBars = document.querySelector(".is-active");
-  if (window.innerWidth <= 768 && menuBars) {
-    menu.classList.toggle("is-active");
-    menuLinks.classList.remove("active");
-  }
-};
-
-menuLinks.addEventListener("click", hideMobileMenu);
-navLogo.addEventListener("click", hideMobileMenu);
 
 },{}]},["3oIkL","2S9Tj"], "2S9Tj", "parcelRequire7d91")
 
-//# sourceMappingURL=index.bc817d69.js.map
+//# sourceMappingURL=index.HASH_REF_85717ce8c66164c1f967695cbc817d69.js.map

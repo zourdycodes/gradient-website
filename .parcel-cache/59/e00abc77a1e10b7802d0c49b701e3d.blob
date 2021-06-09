@@ -1,0 +1,20 @@
+const menu = document.querySelector("#mobile-menu");
+const menuLinks = document.querySelector(".navbar__menu");
+const btnScrollTo = document.getElementById("scroll-to");
+
+//* Display Mobile Menu
+/**
+ * @param  {} =>{menu.classList.toggle("is-active")}
+ * @param  {} =>{menuLinks.classList.toggle("active")}
+ */
+const mobileMenu = () => {
+  menu.classList.toggle("is-active");
+  menuLinks.classList.toggle("active");
+};
+
+menu.addEventListener("click", mobileMenu);
+
+//* Scroll into View
+btnScrollTo.addEventListener('click', function (e) => {
+  
+})
